@@ -2,7 +2,7 @@
 While on medical vocal rest, I needed to continue attending meetings. To do this, I leveraged a web-based text-to-speech app, VB-Cable, and VoiceMeeter. This tutorial illustrates how I achieved this on Windows 11.
 
 ## The Basics
-You need a [text to speech app](url), then you'll use [VB-Cable](url) and [Volume Mixer](url) to re-direct the audio through [VoiceMeeter](url) so that it is a microphone for your [video conferencing program](url). This may sound complex, but hopefully, I can simplify it for you.
+You need a text to speech app, then you'll use VB-Cable and Volume Mixer to re-direct the audio through VoiceMeeter so that it is a microphone for your video conferencing program. This may sound complex, but hopefully, I can simplify it for you.
 
 ### Text to Speech app
 1. I utilized [**Dani's Voice App** ](https://voice.db.rocks) because it is simple and, while in chat mode, can be configured to send the message when you hit enter. It is free and works on any platform. It uses the operating system's in-built speech generation system, which is nice. You can use any other text-to-speech program or app by using a different app in Volume Mixer. The Microsoft Aria Online (Natural) - English (United States) (en-US) voice is generally fine, but I find the pauses between sentences to be disconcerting.

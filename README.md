@@ -12,9 +12,8 @@ You need a [text to speech app](url), then you'll use [VB-Cable](url) and [Volum
 
 ### VB-Cables and VoiceMeeter Install
 1. Download and install VB-Cable from here - **https://vb-audio.com/Cable/**
-2. Download and install VoiceMeeter Potato from here - **https://vb-audio.com/Voicemeeter/potato.htm**
+2. Download and install VoiceMeeter from here - **https://Voicemeeter.com** (you can use the Standard install for this).
 3. After installing each, you will be asked to reboot your computer. You only need to reboot after installing them both.
-> VoiceMeeter Potato has more inputs and outputs than the normal VoiceMeeter. You could do this with the standard installation, but the additional inputs and outputs are necessary for me because someitmes I use a headset and sometimes I use a speaker. 
 
 ### Volume Mixer
 1. Open **Windows Volume Mixer** (Start > Mixer).
@@ -27,14 +26,16 @@ You need a [text to speech app](url), then you'll use [VB-Cable](url) and [Volum
 Now for the tricky parts:
 > This is only necessary if you want to hear your text to speech playback in your headphones or speaker (the Hareware Out section)
 1. For **Stereo Input 1**, I selected my **headset** (as a WDM (WASAPI) device).
-2. Do the same on the other inputs for the other audio devices you use. 
-3. **On at least one Stereo Input**, select the MME (Multimedia) device called **CABLE output (VB-Audio Virtual)**.
-4. In the **Hardware Out** section, click **A1** and select the MME (Multimedia) device you wish to hear the text to speech though (I used my headphones).
-5. Click **Menu** in the upper right and **Save Setting**s to your computer.
-6. Click **Menu** again and then **Load Settings on Startup**, selecting the file you just saved.
-7. Click **Menu** once more and check the following - **System Tray** and **Run on Windows Startup**.
-8. Minimize the window.
-<img width="1645" height="770" alt="potato" src="https://github.com/user-attachments/assets/7d62dd5e-fa06-4c3c-9766-eac403c5ccd7" />
+2. Do the same on the other inputs for the other audio devices you use.
+3. In the **Hardware Out** section, click **A1** and select the MME (Multimedia) device you wish to hear the text to speech though (I used my headphones).
+4. In the **Hardware Out** section, click **A2** and select the MME (Multimedia) device **Cable Input (VB-Audio Virtual Cable)**.
+5. Spaeck into the mic and use the Text-To-Speech program and observe the audio meeters moving for each.
+6. Click **Menu** in the upper right and **Save Setting**s to your computer.
+7. Click **Menu** again and then **Load Settings on Startup**, selecting the file you just saved.
+8. Click **Menu** once more and check the following - **System Tray** and **Run on Windows Startup**.
+9. Minimize the window.
+>You can reference this screenshot:
+><img width="1014" height="613" alt="dddd" src="https://github.com/user-attachments/assets/939b2b3c-7518-4f4c-b5d0-1cd943b203f7" />
 
 ### Your Video Conferencing Program
 1. In the viceo conference program of your choice, set your **microphone** to  **CABLE Output (VB-Audio Virtual Cable)**.

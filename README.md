@@ -17,10 +17,9 @@ You need a text to speech app, then you'll use VB-Cable and Volume Mixer to re-d
 
 ### Volume Mixer
 1. Open **Windows Volume Mixer** (Start > Mixer).
-2. Expand the text to speech app or the browser you will be running it in.
-3. Change the **Output device** to **CABLE Input (VB-Audio Virtual Cable)**.
-4. Change the **Input device** to **CABLE Output (VB-Audio Virtual Cable)**.
-<img width="1083" height="489" alt="mixer" src="https://github.com/user-attachments/assets/00073d63-8095-4e0d-8af3-49bd41071cb3" />
+2. Expand the text to speech app or the browser you will be running it in. In my example, I used Microsoft Edge.
+3. Change the **Output device** to **Voicemeeter Input (VB-Audio Voicemeeter VAIO)**.
+<img width="1084" height="536" alt="2025-12-04_10-12-40" src="https://github.com/user-attachments/assets/c8b3c03c-f43b-4dc2-8f51-3ecc932be206" />
 
 ### VoiceMeeter
 Now for the tricky parts:
